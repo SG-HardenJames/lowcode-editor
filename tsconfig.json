@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ES2017",
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "jsx": "preserve",
+        "paths": {
+            "@sg-lowcode-management/shared": ["./packages/shared/src/index"]
+        }
+    },
+    "include": [
+        "apps/**/src/**/*",
+        "packages/**/src/**/*"
+    ],
+}
