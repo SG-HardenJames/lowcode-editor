@@ -14,4 +14,7 @@
         "apps/**/src/**/*",
         "packages/**/src/**/*"
     ],
+    "exclude": [
+        ".scripts/*"
+    ]
 }
